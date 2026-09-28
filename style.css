@@ -6,22 +6,22 @@
 }
 
 :root {
-    --navy: #071a35;
-    --blue: #1d4ed8;
-    --bright-blue: #38bdf8;
-    --pale-blue: #eaf3ff;
-    --text: #1e293b;
+    --navy: #67362f;
+    --blue: #a64d40;
+    --bright-blue: #bd6657;
+    --pale-blue: #f8e9e4;
+    --text: #382d2a;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f7faff;
+    background: #fffaf8;
     color: var(--text);
     line-height: 1.6;
 }
 
 header {
-    background: var(--navy);
+    background: #f1d9d2;
     padding: 18px 8%;
 }
 
@@ -33,7 +33,7 @@ nav {
 }
 
 .logo {
-    color: white;
+    color: var(--navy);
     font-size: 27px;
     font-weight: 700;
     text-decoration: none;
@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav ul a {
-    color: #eaf3ff;
+    color: #583a35;
     text-decoration: none;
     font-size: 15px;
     transition: color 0.2s ease;
@@ -63,8 +63,8 @@ nav ul a:hover {
 .hero {
     min-height: 610px;
     padding: 70px 10%;
-    background: linear-gradient(125deg, #071a35 0%, #123b83 58%, #1d4ed8 100%);
-    color: white;
+    background: linear-gradient(125deg, #fbefeb 0%, #f1d4cc 58%, #e8beb4 100%);
+    color: var(--text);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,7 +76,7 @@ nav ul a:hover {
 }
 
 .eyebrow {
-    color: var(--bright-blue);
+    color: var(--blue);
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -90,7 +90,7 @@ nav ul a:hover {
 }
 
 .hero h1 span {
-    color: var(--bright-blue);
+    color: var(--blue);
 }
 
 .hero h2 {
@@ -100,26 +100,26 @@ nav ul a:hover {
 }
 
 .intro {
-    color: #dbeafe;
+    color: #624640;
     font-size: 17px;
     margin-bottom: 14px;
 }
 
 .divider {
-    color: var(--bright-blue);
+    color: var(--blue);
     padding: 0 5px;
 }
 
 .hero-text {
-    color: #dbeafe;
+    color: #624640;
     max-width: 480px;
     margin-bottom: 28px;
 }
 
 .btn {
     display: inline-block;
-    background: var(--bright-blue);
-    color: var(--navy);
+    background: var(--blue);
+    color: white;
     padding: 12px 22px;
     border-radius: 30px;
     text-decoration: none;
@@ -128,7 +128,7 @@ nav ul a:hover {
 }
 
 .btn:hover {
-    background: white;
+    background: var(--navy);
     transform: translateY(-2px);
 }
 
@@ -146,8 +146,8 @@ nav ul a:hover {
     height: 300px;
     padding: 7px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #7dd3fc, #ffffff, #38bdf8);
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.28);
+    background: linear-gradient(135deg, #c97969, #fffaf8, #a64d40);
+    box-shadow: 0 15px 45px rgba(103, 54, 47, 0.2);
 }
 
 .photo-ring img {
@@ -157,12 +157,12 @@ nav ul a:hover {
     object-fit: cover;
     object-position: center 25%;
     border-radius: 50%;
-    border: 4px solid var(--navy);
+    border: 4px solid #f8e9e4;
 }
 
 .photo-caption {
     display: block;
-    color: #dbeafe;
+    color: #624640;
     font-size: 13px;
     margin-top: 15px;
 }
@@ -181,7 +181,7 @@ nav ul a:hover {
 .section-text {
     max-width: 780px;
     margin: 0 auto 14px;
-    color: #475569;
+    color: #62534f;
     line-height: 1.8;
 }
 
@@ -203,14 +203,14 @@ nav ul a:hover {
     width: 280px;
     padding: 28px 24px;
     border-radius: 14px;
-    border: 1px solid #dbeafe;
-    box-shadow: 0 8px 24px rgba(30, 64, 175, 0.08);
+    border: 1px solid #ead2cb;
+    box-shadow: 0 8px 24px rgba(103, 54, 47, 0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .skill-box:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 28px rgba(30, 64, 175, 0.14);
+    box-shadow: 0 12px 28px rgba(103, 54, 47, 0.14);
 }
 
 .skill-icon {
@@ -220,7 +220,7 @@ nav ul a:hover {
     height: 48px;
     margin: 0 auto 16px;
     border-radius: 50%;
-    background: #dbeafe;
+    background: #f4dfd9;
     color: var(--blue);
     font-size: 20px;
     font-weight: 700;
@@ -233,7 +233,7 @@ nav ul a:hover {
 }
 
 .skill-box p {
-    color: #64748b;
+    color: #6d5a55;
     font-size: 14px;
 }
 
@@ -242,8 +242,8 @@ nav ul a:hover {
 }
 
 footer {
-    background: var(--navy);
-    color: #cbd5e1;
+    background: #ead2cb;
+    color: #624640;
     text-align: center;
     padding: 20px;
     font-size: 13px;
